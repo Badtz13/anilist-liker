@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Anilist Liker",
+      "description": "Allows users to quickly like posts on Anilist"
+    },
+    "appDesc": {
+      "message": "Anilist Liker", 
+      "description":"Allows users to quickly like posts on Anilist"
+    }
+  }
