@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Anilist Liker",
+    "version": "1.0", 
+    "description": "Allows users to quickly like all posts on their Anilist feed",
+  
+    "icons": {
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+  
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/logo-16.png",
+            "32": "icons/logo-32.png"
+        }
+    },
+    
+    "permissions": ["activeTab"]
+}
