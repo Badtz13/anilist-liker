@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Anilist Liker",
-    "version": "1.0", 
+    "version": "1.1", 
     "description": "Allows users to quickly like all posts on their Anilist feed",
   
     "icons": {
@@ -20,5 +20,5 @@
         }
     },
     
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab", "tabs"]
 }
