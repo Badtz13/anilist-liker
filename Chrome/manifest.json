@@ -1,15 +1,27 @@
 {
     "manifest_version": 2,
     "name": "Anilist Liker",
-    "version": "0.1",
+    "version": "1.2",
     "default_locale": "en",
     "description": "Allows users to quickly like posts on Anilist",
-    "browser_action": {
-        "default_icon": "logo.png"
+    
+    "icons": {
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png"
     },
+  
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/logo-16.png",
+            "32": "icons/logo-32.png"
+        }
+    },
+
+
+    
     "background" : {
         "scripts" : ["background.js"]
     },
     
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab", "tabs"]
 }
